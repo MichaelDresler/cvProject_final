@@ -1,0 +1,13 @@
+﻿train: ../train/images
+test: ../valid/images
+val: ../test/images
+
+nc: 4
+names: ['Bent_Over_Squat', 'Deep_Squat', 'Good_Squat', 'Shallow_Squat']
+
+roboflow:
+  workspace: machine-learning-uejfw
+  project: squat_classification-2kw41
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/machine-learning-uejfw/squat_classification-2kw41/dataset/4
