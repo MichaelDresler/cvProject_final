@@ -1,6 +1,6 @@
 ﻿train: ../train/images
-test: ../valid/images
-val: ../test/images
+test: ../test/images
+val: ../valid/images
 
 nc: 4
 names: ['Bent_Over_Squat', 'Deep_Squat', 'Good_Squat', 'Shallow_Squat']
